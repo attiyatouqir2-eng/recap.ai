@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# Downloaded audio and generated files
+downloads/
+*.wav
+*.mp3
+*.m4a
+*.webm
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector store / RAG database
+vector_db/
+chroma_db/
+*.sqlite3
+
+# Checkpoints
+transcript_checkpoint.json
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
